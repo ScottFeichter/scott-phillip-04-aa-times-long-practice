@@ -1,1 +1,19 @@
-/* Your code here */
+.main-nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: nowrap;
+    /* border: solid 1px black; */
+}
+
+.main-nav li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main-nav a {
+    font-size: 12px;
+}
