@@ -1,3 +1,9 @@
+@media (max-width: 1000px) {
+    .interest-links, #test {
+        display: none;
+    }
+}
+
 .interest-links {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
