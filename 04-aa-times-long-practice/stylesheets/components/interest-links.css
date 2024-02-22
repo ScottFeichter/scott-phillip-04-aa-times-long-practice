@@ -1,25 +1,33 @@
 .interest-links {
     display: grid;
-    grid-template-columns: 1, 2, 1, 2, 1, 2, 2, 1, 0.75;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-template-rows: auto;
     grid-template-areas: "dog-image dog-programmers cat-image cats-and-coding plug-image plugging-stuff-in some-stocks-quotes weather-image the-weather";
+
+}
+
+.interest-links h4 {
+    font-size: small;
+}
+
+.interest-links p {
+    font-size:smaller;
 }
 
 .dog-image {
-    max-width: 20px;
-    max-height: 20px;
     grid-area: dog-image;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .dog-programmers {
     grid-area: dog-programmers;
-    border: orange dashed 2px;
+    vertical-align: top;
+    /* border: orange dashed 2px; */
 }
 
+
 .cat-image {
-    max-width: 20px;
-    max-height: 20px;
-    grid-area: cats-and-coding;
+    grid-area: cat-image;
     border: orange dashed 2px;
 }
 
@@ -29,8 +37,7 @@
 }
 
 .plug-image {
-    max-width: 20px;
-    max-height: 20px;
+
     grid-area: plug-image;
     border: orange dashed 2px;
 }
@@ -46,8 +53,7 @@
 }
 
 .weather-image {
-    max-width: 20px;
-    max-height: 20px;
+
     grid-area: weather-image;
     border: orange dashed 2px;
 }
