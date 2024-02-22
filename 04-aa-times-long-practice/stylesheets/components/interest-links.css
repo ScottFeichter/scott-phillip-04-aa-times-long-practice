@@ -34,37 +34,37 @@
 
 .cat-image {
     grid-area: cat-image;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .cats-and-coding {
     grid-area: cats-and-coding;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .plug-image {
 
     grid-area: plug-image;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .plugging-stuff-in {
     grid-area: plugging-stuff-in;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .some-stocks-quotes {
     grid-area: some-stocks-quotes;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .weather-image {
 
     grid-area: weather-image;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
 
 .the-weather {
     grid-area: the-weather;
-    border: orange dashed 2px;
+    /* border: orange dashed 2px; */
 }
